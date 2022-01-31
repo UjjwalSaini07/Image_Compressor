@@ -42,6 +42,7 @@ class ImageCompressor(Tk):
             messagebox.showinfo("Save to:", self.saveTo)
         else:
             messagebox.showwarning("Error", "No folder selected")
+            aa=11
 
     def CompressImage(self):
         self.scaleNum = self.scaleValue.get()
